@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+import App from '../components/App';
 import {createStore} from 'redux';
-import reducer from './reducers/index';
+import reducer from '../reducers/index';
 import { Provider } from 'react-redux';
 
 it('renders without crashing', () => {

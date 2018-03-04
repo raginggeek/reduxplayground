@@ -1,6 +1,6 @@
 import {ADD_TO_CART, REMOVE_FROM_CART} from "../constants/actionTypes";
 
-let initialState = []
+let initialState = [];
 export default function shoppingCart(state=initialState, action){
     switch (action.type) {
         case ADD_TO_CART:
